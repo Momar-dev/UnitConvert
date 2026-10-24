@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.UnitConverter" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Brand Colors -->
+        <item name="colorPrimary">@color/primary_accent</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+        <item name="colorSecondary">@color/secondary_accent</item>
+        <item name="colorOnSecondary">@color/primary_background</item>
+
+        <!-- Background & Surface -->
+        <item name="android:windowBackground">@color/primary_background</item>
+        <item name="colorSurface">@color/surface_elevated</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+
+        <!-- System Bars -->
+        <item name="android:statusBarColor">@color/primary_background</item>
+        <item name="android:navigationBarColor">@color/primary_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+        <!-- Dialog theme -->
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.UnitConverter.MaterialAlertDialog</item>
+    </style>
+
+    <style name="ThemeOverlay.UnitConverter.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorSurface">@color/surface_elevated</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.UnitConverter.Dialog</item>
+    </style>
+
+    <style name="ShapeAppearance.UnitConverter.Dialog" parent="">
+        <item name="cornerSize">20dp</item>
+    </style>
+</resources>

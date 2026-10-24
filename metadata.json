@@ -1,0 +1,6 @@
+{
+  "name": "Unit Converter",
+  "description": "A premium, fully responsive native Android unit converter for length, weight, and temperature with real-time conversion and formula breakdowns.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Unit Converter</string>
+    <string name="header_subtitle">Convert with confidence</string>
+
+    <!-- Categories -->
+    <string name="category_length">Length</string>
+    <string name="category_weight">Weight</string>
+    <string name="category_temperature">Temperature</string>
+
+    <!-- Workspace Labels -->
+    <string name="label_from">FROM</string>
+    <string name="label_to">TO</string>
+    <string name="hint_enter_value">0.00</string>
+    <string name="btn_convert">Convert</string>
+    <string name="btn_reset">Reset</string>
+    <string name="label_result_ready">Converted Result</string>
+    <string name="label_result_placeholder">0.00</string>
+    <string name="initial_result_prompt">Enter a value and tap Convert</string>
+    <string name="info_title">CONVERSION FORMULA &amp; FACTOR</string>
+
+    <!-- Error & Info Messages -->
+    <string name="error_empty_input">Please enter a value to convert</string>
+    <string name="error_invalid_number">Please enter a valid numeric value</string>
+    <string name="error_negative_length">Length cannot be negative</string>
+    <string name="error_negative_weight">Weight cannot be negative</string>
+    <string name="error_absolute_zero">Temperature cannot be below absolute zero</string>
+    <string name="copied_to_clipboard">Result copied to clipboard</string>
+
+    <!-- Unit Selection Dialog -->
+    <string name="dialog_select_source_unit">Select Source Unit</string>
+    <string name="dialog_select_target_unit">Select Destination Unit</string>
+
+    <!-- Accessibility Descriptions -->
+    <string name="cd_hero_icon">Unit Converter Logo</string>
+    <string name="cd_swap_units">Swap source and target units</string>
+    <string name="cd_category_length">Switch to length conversion</string>
+    <string name="cd_category_weight">Switch to weight conversion</string>
+    <string name="cd_category_temperature">Switch to temperature conversion</string>
+    <string name="cd_source_unit_picker">Choose source unit</string>
+    <string name="cd_target_unit_picker">Choose destination unit</string>
+    <string name="cd_copy_result">Copy result to clipboard</string>
+    <string name="cd_reset">Reset all fields</string>
+</resources>
